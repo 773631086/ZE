@@ -1,0 +1,357 @@
+html{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	font:12px "微软雅黑";
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+*,div{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+img{
+	border: 0px;
+	box-sizing: border-box;
+}
+a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+}
+/*整体*/
+.wmain{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-image: url(../images/img_bg.png);
+	background-size: cover;
+}
+.main{
+	width: 1200px;
+	height: auto;
+	padding: 0px;
+	margin: 0px auto;
+	box-sizing: border-box;
+}
+/*头部标题*/
+.mainTop{
+	width: 100%;
+	padding: 50px  0px;
+	text-align: center;
+}
+/*中间内容*/
+.mainMiddle{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	padding: 40px 44px;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 1px 1px #ccc;
+}
+/*显示名称*/
+.midOne{
+	width: 100%;
+	height:62px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #727001;
+}
+.midOne_Mid{
+	width: 120px;
+	height: 62px;
+	background-image: url(../images/img_bgShi.png);
+	color: #fff;
+	text-align: center;
+	font-size: 16px;float: left;
+	font-family: "微软雅黑";
+	padding-top: 30px;color: #fff;
+}
+.midOne_MidA{
+	float: left;
+	height: 62px;
+	text-decoration: none;
+	padding-top: 30px;font-size: 16px;
+	width: 120px;cursor: pointer;
+	text-align: center;
+}
+/*显示内容*/
+.midTwo{
+	width: 100%;
+	height: auto;overflow: hidden;
+	margin: 20px 0px;
+}
+.midTwo_One{
+	width: 50%;
+	float: left;
+	height: 72px;
+}
+.midTwo_One label{
+	float: left;
+	line-height: 42px;
+	font-size:16px;
+}
+.midTwo_One .slect{
+	width: 440px;
+	height: 42px;
+	box-sizing: border-box;
+	border:1px solid #cccccc;
+	font-size: 16px;
+	padding:0px 14px;
+}
+/*变更日期*/
+.midTwo_Two{
+	width: 100%;
+	height: 64px;
+	padding: 10px 8px;
+	box-sizing: border-box;
+	border:1px solid #ccc;cursor: pointer;
+}
+.midTtwo_one{
+	width:258px;float: left;
+	height: 44px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+.midTtwo_one a{
+	width: 42px;
+	height: 42px;
+	display: block;
+	float: left;
+	background: #ccc;
+	color: #333;
+	text-align: center;
+	line-height: 42px;
+	font-size: 18px;
+}
+/*选择时间*/
+.The{
+	width: 172px;
+	height: 42px;
+	float: left;
+	padding: 0px 46px;
+}
+.The .date{
+	width: 120px;
+	padding: 0px;
+	margin: 0px;
+	height: 42px;
+	font-size: 16px;
+	border: 0px;
+	outline: none;
+}
+/*变更预约*/
+.midTwo_two{
+	width: 100px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	color: #333333;float: right;
+}
+/*日期选择*/
+.tablist{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+.tablist tr th{
+	width: 14.44%;
+	height:52px;
+	text-align: center;
+	line-height: 52px;font-size: 16px;font-weight: 600;
+	box-sizing: border-box;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.tablist tr td{
+	width: 14.44%;
+	height: 80px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;color: #333;
+}
+/*显示日期*/
+.tablistNumber{
+	width: 100%;
+	height: 40px;padding-top: 18px;
+	font-size: 16px;
+	text-align: center;
+}
+/*显示状态*/
+.tlistInformation{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+}
+.tablist tr td .appointment{
+	width: 100%;
+	height: 100%;cursor: pointer;
+}
+/*预约名额已满*/
+.AppointmentFull{
+	color: #fff;
+	background: #d74747;
+}
+/*不可预约*/
+.AppointmentNo{
+	background: #f5f5f5;
+	color: #a0a0a0;
+}
+/*可预约数量<50*/
+.AppointmentYes{
+	background: #dbfb04;
+}
+/*可预约数量=50*/
+.AppointmentYesO{
+	background: #deee73;
+}
+/*可预约数量>50*/
+.AppointmentYesT{
+	background: #727001;
+	color: #fff;
+}
+/*清除浮动*/
+.clear{
+	clear: both;
+}
+/*底部*/
+.mainBottom{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	color: #333;font-size: 16px;
+}
+
+/*弹出层*/
+/*投影*/
+.reveal-modal-bg { 
+	position: fixed; 
+	height: 100%;
+	width: 100%;
+	background: #000;
+	background: rgba(0,0,0,.6);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0; 
+}
+/*正常选择*/
+.DateChoose{
+	display: none;
+	width: 878px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: #fff;
+	padding:2px 20px 10px 20px;
+
+}
+/*关闭*/
+.Close{
+	width: 100%;
+	height:30px;
+	padding: 0px;
+	margin: 0px;
+}
+.Close a{
+	float: right;
+}
+.Close a img{
+	width: 20px;
+}
+/*选择时间列表*/
+.tabDate{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+	border-collapse: collapse;
+}
+.tabDate tr th{
+	box-sizing: border-box;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #333;
+	border: 1px solid #ccc;
+}
+.tabDate tr td{
+	height: 52px;
+	text-align: center;
+	line-height: 52px;
+	color: #333;
+	font-size: 16px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+/*预约*/
+.yuyue{
+	/*display: block;*/
+	float:left;
+	width: 56px;
+	height: 36px;
+	padding: 0px;
+	margin: 0px 0px 0px 60px;
+	text-align: center;
+	color: #fff;border-radius: 3px;
+	background: #727001;line-height: 36px;
+}
+.chakan{
+	display: block;
+	float: left;
+	width: 56px;
+	height: 36px;
+	padding: 0px;
+	margin: 0px 0px 0px 20px;
+	text-align: center;
+	color: #fff;border-radius: 3px;
+	background: #99af03;line-height: 36px;
+}
+/*变更查询*/
+.BtnBiangeng{
+	width: 100%;
+	height: auto;
+	padding: 30px 0px;
+	text-align: center;
+}
+.biangeng{
+	width: 120px;
+	height: 42px;
+	color: #fff;
+	font-size: 16px;
+	background: #727001;
+	outline: none;
+	border: 0px;border-radius: 3px;
+}
+/*填写预约信息*/
+.InforLine{
+	width: 100%;
+	height: 60px;
+	padding: 10px 0px 0px 0px;
+}
+.InforLine label{
+	width: 100px;
+	float: left;
+	line-height: 42px;
+	font-size: 16px;
+}
+.InforLine input[type="text"]{
+	width: 400px;
+	height: 42px;
+	box-sizing: border-box;
+	padding: 0px 5px;
+	font-size: 16px;
+	color:#000;
+	border: 1px solid #CCCCCC;
+	outline: none;text-align: left;
+}

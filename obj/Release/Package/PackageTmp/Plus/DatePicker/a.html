@@ -1,0 +1,3 @@
+<script type="text/javascript" src="WdatePicker.js"></script>
+<input id="d11" type="text"  onFocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss',isShowClear:true,readOnly:true,minDate:'%y-%M-%d %H:%m:&s',maxDate:'#F{$dp.$D(\'d12\')||\'2020-10-01\'}'})" class="Wdate"/>
+<input id="d12" type="text"  onFocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:false,isShowClear:true,readOnly:true,minDate:'#F{$dp.$D(\'d11\')}',maxDate:'2020-10-01'})" class="Wdate"/>
